@@ -1,5 +1,5 @@
 import React from "react";
-
+import Feed from "@components/Feed";
 const page = () => {
 	return (
 		<section className="w-full flex-center flex-col">
@@ -12,6 +12,7 @@ const page = () => {
 				Promptino is and open-source AI prompting tool for modern world to
 				discover, create and share creative prompts
 			</p>
+			<Feed />
 		</section>
 	);
 };
